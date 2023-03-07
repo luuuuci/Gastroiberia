@@ -1,2 +1,2 @@
 # Gastroiberia
- Un juego ROG sobre la gastronomía española
+ Un juego RPG sobre la gastronomía española
