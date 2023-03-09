@@ -11,6 +11,7 @@ public class MoveController : MonoBehaviour
     private bool moveLeft, moveRight;
     public int CoinValue;
     public TextMeshProUGUI text;
+    [SerializeField] GameObject menuPausa;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,13 @@ public class MoveController : MonoBehaviour
         {
             rb.velocity = new Vector2(moveSpeed, 0f);
         }
+        if(CoinValue == 15)
+        {
+            Debug.Log("YOU WIN");
+            menuPausa.SetActive(true);
+            Time.timeScale = 0f;
+
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -62,7 +70,7 @@ public class MoveController : MonoBehaviour
         {
             Destroy(other.gameObject);
             CoinValue++;
-            Debug.Log(CoinValue);
+            
             text.text = "X" + CoinValue.ToString();
         }
     }
