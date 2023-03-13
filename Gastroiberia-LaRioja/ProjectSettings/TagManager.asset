@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coins
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Kitchen-Mesa
     uniqueID: 3948305095
+    locked: 0
+  - name: Interactable
+    uniqueID: 903653033
     locked: 0

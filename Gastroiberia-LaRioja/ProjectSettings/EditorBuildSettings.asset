@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatchItem.unity
     guid: b3ce80aa1115b374086d5ea0d3802f49
+  - enabled: 1
+    path: Assets/Scenes/PUEBLOS/LlegadaBus.unity
+    guid: 22e6f4954781c274caebc83c0415de1d
+  - enabled: 1
+    path: Assets/Scenes/PUEBLOS/Anguiano.unity
+    guid: 02519a10ad6c731468909898373bcff2
   m_configObjects: {}

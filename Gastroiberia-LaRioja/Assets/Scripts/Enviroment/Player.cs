@@ -20,9 +20,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-       
-        //if (DialogueManager.isActive == true)  //no se mueve el eprsonaje hasta que deje de hablar
-        //    return;
+
+        if (DialogueManager.isActive == true)  //no se mueve el eprsonaje hasta que deje de hablar
+            return;
 
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
