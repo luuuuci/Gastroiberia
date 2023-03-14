@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     public int pesos;
     public int experience;
 
-   
+    public bool itemCogido;
 
 
     //Save state
@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour
     // INT pesos
     // INT experience
     // INT weaponLevel
+    public void CogerItem()
+    {
+        itemCogido = true;
+        Debug.Log(itemCogido);
+    }
     public void SaveState()
     {
         string s = "";

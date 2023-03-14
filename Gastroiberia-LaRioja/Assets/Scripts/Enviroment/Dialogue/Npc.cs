@@ -1,19 +1,75 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Npc : MonoBehaviour
 {
-    public DialogueTrigger trigger;
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public GameObject dialogBox;
+    public Text dialogText;
+    public string dialog;
+    public string dialogMission;
+    public bool dialogActive;
+    public bool playerInRange = false;
+   
+    public ItemCollectable item;
+    
+    void Start()
     {
-        if(collision.gameObject.CompareTag("Player") == true)
-        {
-            Debug.Log("vvv");
-            trigger.StartDialogue();
-        }
-        
+        item = FindObjectOfType<ItemCollectable>();
+    }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange && !item.cogido)
+        {
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+                Time.timeScale = 1f;
+
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+                Time.timeScale = 0f;
+                //Debug.Log(item.cogido);
+            }
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange && item.cogido)
+        {
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+                Time.timeScale = 1f;
+                
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialogMission;
+                Time.timeScale = 0f;
+                //Debug.Log(item.cogido);
+            }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") == true)
+        {
+            Debug.Log("Enter");
+            playerInRange = true;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") == true)
+        {
+            Debug.Log("Exit");
+            playerInRange = false;
+        }
     }
 }
