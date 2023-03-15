@@ -62,6 +62,7 @@ public class MoveController : MonoBehaviour
             menuPausa.SetActive(true);
             Time.timeScale = 0f;
 
+
         }
     }
     private void OnTriggerEnter2D(Collider2D other)

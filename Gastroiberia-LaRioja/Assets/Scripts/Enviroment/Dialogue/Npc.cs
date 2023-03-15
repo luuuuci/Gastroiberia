@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Npc : MonoBehaviour
 {
     public GameObject dialogBox;
+    public GameObject botonReceta;
     public Text dialogText;
     public string dialog;
     public string dialogMission;
@@ -44,6 +45,7 @@ public class Npc : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                botonReceta.SetActive(false);
                 Time.timeScale = 1f;
                 
             }
@@ -52,6 +54,7 @@ public class Npc : MonoBehaviour
                 dialogBox.SetActive(true);
                 dialogText.text = dialogMission;
                 Time.timeScale = 0f;
+                botonReceta.SetActive(true);
                 //Debug.Log(item.cogido);
             }
         }

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1822763358899334323, guid: 95ce5beff799aa84abd9f543f09d11a8, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1298449149, guid: 5c8452ffb66d26f4db7542eb3b530920, type: 3}
+      objectReference: {fileID: 1556934615, guid: 03bd0e4bde430fc4dbed7dc02ddf6ac1, type: 3}
     - target: {fileID: 2482806479776223910, guid: 95ce5beff799aa84abd9f543f09d11a8, type: 3}
       propertyPath: m_Name
       value: Puzzle Slot Base 6

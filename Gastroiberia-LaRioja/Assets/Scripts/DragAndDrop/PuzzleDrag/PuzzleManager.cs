@@ -13,12 +13,15 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] private AudioSource _source;
 
 
+    
+
     public int contador;
 
     void Start()
     {
         contador = 0;
         Spawn();
+        
     }
     
 
@@ -30,6 +33,9 @@ public class PuzzleManager : MonoBehaviour
            Debug.Log("GANASTE");
             _source.Pause();
             menuPausa.SetActive(true);
+            
+            Time.timeScale = 0f;
+
         }
     }
     void Spawn()
