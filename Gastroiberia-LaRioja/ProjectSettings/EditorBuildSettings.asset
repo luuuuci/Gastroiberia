@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PUEBLOS/Anguiano.unity
     guid: 02519a10ad6c731468909898373bcff2
+  - enabled: 1
+    path: Assets/Scenes/Menus/Opciones.unity
+    guid: a0074c1f66a46fb4d8376336d398c3c1
+  - enabled: 1
+    path: Assets/Scenes/Menus/MenuPrincipal.unity
+    guid: 6a878a4a9427e2c4897007322afd716f
   m_configObjects: {}

@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     //Logic
     public int pesos;
     public int experience;
+    public int recetas;
 
     public bool itemCogido;
 
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
         s += pesos.ToString() + "|";
         s += experience.ToString() + "|";
         s += "0";
+        s += recetas.ToString() + "|";
 
 
         PlayerPrefs.SetString("SaveState", s);
@@ -76,6 +78,7 @@ public class GameManager : MonoBehaviour
         //pesos
         pesos = int.Parse(data[1]);
         experience = int.Parse(data[2]);
+        recetas = int.Parse(data[3]);
         //change weapon level
 
 
