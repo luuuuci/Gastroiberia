@@ -30,7 +30,7 @@ public class Sign : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Coins") == true)
+        if (other.gameObject.CompareTag("Player") == true)
         {
             Debug.Log("Enter");
             playerInRange = true;
@@ -38,7 +38,7 @@ public class Sign : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Coins") == true)
+        if (other.gameObject.CompareTag("Player") == true)
         {
             Debug.Log("Exit");
             playerInRange = false;

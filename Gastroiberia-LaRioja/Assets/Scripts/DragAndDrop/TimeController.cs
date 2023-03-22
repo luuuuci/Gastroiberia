@@ -13,7 +13,7 @@ public class TimeController : MonoBehaviour
     public bool enMarcha;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         restante = (min * 60) + seg;
         enMarcha = true;

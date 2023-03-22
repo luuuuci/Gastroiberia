@@ -34,7 +34,7 @@ public class Npc : MonoBehaviour
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
-                Time.timeScale = 0f;
+                //Time.timeScale = 1f;
                 //Debug.Log(item.cogido);
             }
         }
@@ -53,7 +53,7 @@ public class Npc : MonoBehaviour
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialogMission;
-                Time.timeScale = 0f;
+                //Time.timeScale = 0f;
                 botonReceta.SetActive(true);
                 //Debug.Log(item.cogido);
             }
