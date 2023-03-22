@@ -86,5 +86,11 @@ public class GameManager : MonoBehaviour
         Debug.Log("LoadState");
 
     }
+    public void Pausar(){
+        Time.timeScale = 0f;
+    }
+    public void Continuar(){
+        Time.timeScale = 1f;
+    }
 
 }

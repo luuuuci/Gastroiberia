@@ -1,28 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] GameObject Box;
     private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
     private RaycastHit2D hit;
     public float moveSpeed = 2f;
     public Animator animator;
+    
+
+    [SerializeField] GameObject dialogueBox;
+
 
     // Start is called before the first frame update
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
 
+        
+
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
+    private void Update()
     {
+       if (DialogueManager.isActive == true)
+            {
+                return;
+            }
 
-        if (DialogueManager.isActive == true)  //no se mueve el eprsonaje hasta que deje de hablar
-            return;
+        
 
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");

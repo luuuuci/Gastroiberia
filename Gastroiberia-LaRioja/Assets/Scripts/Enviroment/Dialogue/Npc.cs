@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Npc : MonoBehaviour
 {
     public GameObject dialogBox;
     public GameObject botonReceta;
-    public Text dialogText;
+    public TextMeshProUGUI dialogText;
     public string dialog;
     public string dialogMission;
     public bool dialogActive;
@@ -27,14 +28,14 @@ public class Npc : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
-                Time.timeScale = 1f;
+                
 
             }
             else
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
-                //Time.timeScale = 1f;
+                
                 //Debug.Log(item.cogido);
             }
         }
