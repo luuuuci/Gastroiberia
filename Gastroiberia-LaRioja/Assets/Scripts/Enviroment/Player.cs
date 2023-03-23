@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     private RaycastHit2D hit;
     public float moveSpeed = 2f;
     public Animator animator;
+    public bool isMoving;
     
 
     [SerializeField] GameObject dialogueBox;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        isMoving = true;
 
         
 
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-       if (DialogueManager.isActive == true)
+       if (isMoving == false)
             {
                 return;
             }
