@@ -195,7 +195,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   sceneNames:
-  - Anguiano
+  - Anguiano 2
 --- !u!212 &105704977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26938,8 +26938,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befdc522cce41f8428e217145395c6d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Box: {fileID: 0}
   moveSpeed: 1
   animator: {fileID: 1539952621}
+  isMoving: 0
+  dialogueBox: {fileID: 0}
 --- !u!212 &1539952619
 SpriteRenderer:
   m_ObjectHideFlags: 0

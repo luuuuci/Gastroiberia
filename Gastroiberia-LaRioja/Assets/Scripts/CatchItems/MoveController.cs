@@ -12,6 +12,7 @@ public class MoveController : MonoBehaviour
     public int CoinValue;
     public TextMeshProUGUI text;
     [SerializeField] GameObject menuPausa;
+    [SerializeField] GameObject fruta;
 
     // Start is called before the first frame update
     void Start()
@@ -56,11 +57,11 @@ public class MoveController : MonoBehaviour
         {
             rb.velocity = new Vector2(moveSpeed, 0f);
         }
-        if(CoinValue == 15)
+        if(CoinValue == 5)
         {
             Debug.Log("YOU WIN");
             menuPausa.SetActive(true);
-            Time.timeScale = 0f;
+            fruta.SetActive(false);
 
 
         }

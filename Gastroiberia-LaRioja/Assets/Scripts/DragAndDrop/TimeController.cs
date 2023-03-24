@@ -28,7 +28,6 @@ public class TimeController : MonoBehaviour
             if(restante < 1)
             {
                 enMarcha = false;
-                Time.timeScale = 0f;
                 menuPerder.SetActive(true);
 
             }

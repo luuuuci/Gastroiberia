@@ -2573,8 +2573,8 @@ MonoBehaviour:
   - {fileID: 5108421708033160714, guid: e8c9e6df55c57be4580526389d2751b8, type: 3}
   - {fileID: 5108421708033160714, guid: 18afc2a5fb1d28942bfa397b44a532f4, type: 3}
   secondSpawn: 1.5
-  minTras: -6
-  maxTras: 6
+  minTras: -5
+  maxTras: 5
 --- !u!4 &981224792
 Transform:
   m_ObjectHideFlags: 0
@@ -3096,6 +3096,7 @@ MonoBehaviour:
   CoinValue: 0
   text: {fileID: 1391253455}
   menuPausa: {fileID: 1369586406}
+  fruta: {fileID: 981224790}
 --- !u!50 &1186482064
 Rigidbody2D:
   serializedVersion: 4

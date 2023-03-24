@@ -10,6 +10,7 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] private PuzzlePiece _piecePrefab;
     [SerializeField] private Transform _slotParent, _pieceParent;
     [SerializeField] GameObject menuPausa;
+     [SerializeField] GameObject panelTiempo;
     [SerializeField] private AudioSource _source;
 
 
@@ -33,8 +34,9 @@ public class PuzzleManager : MonoBehaviour
            Debug.Log("GANASTE");
             _source.Pause();
             menuPausa.SetActive(true);
+            panelTiempo.SetActive(false);
             
-            Time.timeScale = 0f;
+            
 
         }
     }

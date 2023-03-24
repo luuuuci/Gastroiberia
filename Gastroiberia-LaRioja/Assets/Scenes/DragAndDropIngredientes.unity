@@ -1283,6 +1283,7 @@ MonoBehaviour:
   _slotParent: {fileID: 865655589}
   _pieceParent: {fileID: 1272800974}
   menuPausa: {fileID: 170747985}
+  panelTiempo: {fileID: 1381800715}
   _source: {fileID: 496806878}
   contador: 0
 --- !u!4 &496806877
@@ -4454,7 +4455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1381800716
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4492,6 +4493,7 @@ MonoBehaviour:
   seg: 20
   tiempo: {fileID: 1526008268}
   menuPerder: {fileID: 1522464256}
+  panelTiempo: {fileID: 1381800715}
   enMarcha: 0
 --- !u!1 &1430123912
 GameObject:
