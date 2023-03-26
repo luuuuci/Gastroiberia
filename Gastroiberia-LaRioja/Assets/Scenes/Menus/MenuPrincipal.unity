@@ -657,7 +657,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Anguiano
+          m_StringArgument: Anguiano 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &390290769
@@ -1890,10 +1890,10 @@ RectTransform:
   m_Father: {fileID: 289740867}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -156}
-  m_SizeDelta: {x: 800, y: 215.8645}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 144}
+  m_SizeDelta: {x: 0, y: 215.8645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927537231
 MonoBehaviour:
