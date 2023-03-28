@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject ensenarCaparrones;
 
     private void Awake()
     {
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         SceneManager.sceneLoaded += LoadState;
         DontDestroyOnLoad(gameObject);
+        
     }
     //Resources
     public List<Sprite> playerSprites;
@@ -25,37 +27,52 @@ public class GameManager : MonoBehaviour
     public List<int> xpTable;
 
     //References
-    public Player player;
+    //public Player player;
     // public weapon weapon...
 
     //Logic
     public int pesos;
-    public int experience;
-    public int recetas;
+   // public int experience;
+    //public int recetas;
 
     public bool itemCogido;
 
+    
+   
+    public void Display(){
+        
+        
+    }
+    public void Hide(){
+        ensenarCaparrones.SetActive(false);
+    }
+    void Update(){
+       // Debug.Log(pesos);
+       if(pesos >= 1){
 
-    //Save state
-
-    // INT preferedSkin
-    // INT pesos
-    // INT experience
-    // INT weaponLevel
+            Debug.Log("DESCBLOQUEADO");
+            ensenarCaparrones.SetActive(true);
+        } else {
+            ensenarCaparrones.SetActive(false);
+        }
+    }
     public void CogerItem()
     {
         itemCogido = true;
         Debug.Log(itemCogido);
     }
+    public void grantPesos(){
+        pesos++;
+    }
     public void SaveState()
     {
         string s = "";
 
-        s += "0" + "|";
+       // s += "0" + "|";
         s += pesos.ToString() + "|";
-        s += experience.ToString() + "|";
-        s += "0";
-        s += recetas.ToString() + "|";
+      //  s += experience.ToString() + "|";
+      //  s += "0";
+      //  s += recetas.ToString() + "|";
 
 
         PlayerPrefs.SetString("SaveState", s);
@@ -76,9 +93,9 @@ public class GameManager : MonoBehaviour
 
         //Change player skin
         //pesos
-        pesos = int.Parse(data[1]);
-        experience = int.Parse(data[2]);
-        recetas = int.Parse(data[3]);
+        pesos = int.Parse(data[0]);
+       // experience = int.Parse(data[2]);
+        //recetas = int.Parse(data[3]);
         //change weapon level
 
 

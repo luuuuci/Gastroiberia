@@ -5,7 +5,7 @@ using UnityEngine;
 public class Chest : Collectable
 {
     public Sprite emptyChest;
-    public int pesosAmount = 5;
+    public int pesosAmount = 1;
 
 
     protected override void OnCollect()
@@ -14,7 +14,9 @@ public class Chest : Collectable
         {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            //Debug.Log("Chest");
+            Debug.Log(pesosAmount +"granted");
+            GameManager.instance.grantPesos();
+            
         }
     }
 }
