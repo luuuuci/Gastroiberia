@@ -40,7 +40,7 @@ public class FishingMiniGame : MonoBehaviour
     private void Start()
     {
         catchProgress = .2f;
-        Pausar();
+       
     }
     private void FixedUpdate()
     {
@@ -69,10 +69,9 @@ public class FishingMiniGame : MonoBehaviour
                 hookSpeed = 0;
                 fishSpeed = 0;
                 fishPosition = 0;
-                Time.timeScale = 0f;
                 Debug.Log("You WIN");
                 menuPausa.SetActive(true);
-                _source.Pause();
+               
             }
         }
         else
@@ -129,12 +128,5 @@ public class FishingMiniGame : MonoBehaviour
         fishPosition = Mathf.SmoothDamp(fishPosition, fishTargetPosition, ref fishSpeed, smoothMotion);
         fish.position = Vector2.Lerp(bottomBounds.position, topBounds.position, fishPosition);
     }
-    public void Pausar()
-    {
-        Time.timeScale = 0;
-    }
-    public void Continuar(int numero)
-    {
-        Time.timeScale = numero;
-    }
+   
 }

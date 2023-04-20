@@ -57,7 +57,7 @@ public class MoveController : MonoBehaviour
         {
             rb.velocity = new Vector2(moveSpeed, 0f);
         }
-        if(CoinValue == 5)
+        if(CoinValue == 10)
         {
             Debug.Log("YOU WIN");
             menuPausa.SetActive(true);

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public GameObject ensenarCaparrones;
+    //public GameObject ensenarCaparrones;
 
     private void Awake()
     {
@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     // public weapon weapon...
 
     //Logic
+    //NUMERO DE RECETAS QUE SABES
     public int pesos;
    // public int experience;
     //public int recetas;
@@ -44,16 +45,16 @@ public class GameManager : MonoBehaviour
         
     }
     public void Hide(){
-        ensenarCaparrones.SetActive(false);
+       // ensenarCaparrones.SetActive(false);
     }
     void Update(){
        // Debug.Log(pesos);
        if(pesos >= 1){
 
-            Debug.Log("DESCBLOQUEADO");
-            ensenarCaparrones.SetActive(true);
+           // Debug.Log("DESCBLOQUEADO");
+          //  ensenarCaparrones.SetActive(true);
         } else {
-            ensenarCaparrones.SetActive(false);
+         //   ensenarCaparrones.SetActive(false);
         }
     }
     public void CogerItem()

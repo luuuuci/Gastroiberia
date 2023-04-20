@@ -4490,10 +4490,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   min: 0
-  seg: 20
+  seg: 15
   tiempo: {fileID: 1526008268}
   menuPerder: {fileID: 1522464256}
-  panelTiempo: {fileID: 1381800715}
   enMarcha: 0
 --- !u!1 &1430123912
 GameObject:
