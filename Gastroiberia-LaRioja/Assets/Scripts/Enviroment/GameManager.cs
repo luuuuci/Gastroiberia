@@ -10,11 +10,11 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (GameManager.instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        //if (GameManager.instance != null)
+       // {
+       //     Destroy(gameObject);
+       //     return;
+       // }
         instance = this;
         SceneManager.sceneLoaded += LoadState;
         DontDestroyOnLoad(gameObject);
