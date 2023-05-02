@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Coins
   - Collectable
+  - Flecha
   layers:
   - Default
   - TransparentFX

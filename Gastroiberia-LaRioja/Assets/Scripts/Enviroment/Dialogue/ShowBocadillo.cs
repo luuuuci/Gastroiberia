@@ -9,7 +9,7 @@ public class ShowBocadillo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") == true)
         {
-            Debug.Log("Enter");
+           // Debug.Log("Enter");
             bocadillo.SetActive(true);
         }
     }
@@ -17,7 +17,7 @@ public class ShowBocadillo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") == true)
         {
-            Debug.Log("Exit");
+           // Debug.Log("Exit");
             bocadillo.SetActive(false);
         }
     }

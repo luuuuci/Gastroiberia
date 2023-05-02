@@ -447,6 +447,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121561755}
   m_CullTransparentMesh: 1
+--- !u!1 &536273882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536273884}
+  - component: {fileID: 536273883}
+  m_Layer: 0
+  m_Name: GameHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &536273883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536273882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d2943c76fd3743a30ea93b68c2c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recetasAmounta: 0
+  text: {fileID: 0}
+  gridCollision0: {fileID: 0}
+  gridCollision1: {fileID: 0}
+  gridCollision2: {fileID: 0}
+  gridCollision3: {fileID: 0}
+  gridCollision4: {fileID: 0}
+  gridCollision5: {fileID: 0}
+  gridCollision6: {fileID: 0}
+  gridCollision7: {fileID: 0}
+  gridCollision8: {fileID: 0}
+--- !u!4 &536273884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536273882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.85503304, y: 0.42759633, z: 5.7736335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593706379
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,10 +832,7 @@ MonoBehaviour:
   weaponSprites: []
   weaponPrices: 
   xpTable: 
-  player: {fileID: 0}
   pesos: 0
-  experience: 0
-  recetas: 0
   itemCogido: 0
 --- !u!4 &970682499
 Transform:
@@ -1025,7 +1077,31 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CAPARRONES
+          m_StringArgument: Anguiano 2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 536273883}
+        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
+        m_MethodName: grantReceta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 536273883}
+        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
+        m_MethodName: Save
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1133178904

@@ -30,7 +30,7 @@ public class bajarBarra : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Sprite size: " + sprRend.size.ToString("F2"));
+        //Debug.Log("Sprite size: " + sprRend.size.ToString("F2"));
         //Press the Space key to increase the size of the sprite
         if (Input.GetKeyDown(KeyCode.Space))
         {

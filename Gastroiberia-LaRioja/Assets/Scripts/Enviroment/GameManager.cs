@@ -5,16 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    
     public static GameManager instance;
     //public GameObject ensenarCaparrones;
 
     private void Awake()
     {
-        //if (GameManager.instance != null)
+       // if (GameManager.instance != null)
        // {
-       //     Destroy(gameObject);
-       //     return;
-       // }
+        //    Destroy(gameObject);
+        //    return;
+        //}
         instance = this;
         SceneManager.sceneLoaded += LoadState;
         DontDestroyOnLoad(gameObject);
@@ -75,14 +76,11 @@ public class GameManager : MonoBehaviour
       //  s += "0";
       //  s += recetas.ToString() + "|";
 
-
         PlayerPrefs.SetString("SaveState", s);
 
 
 
-
         Debug.Log("SaveState");
-
 
     }
     public void LoadState(Scene s, LoadSceneMode mode)
@@ -99,7 +97,6 @@ public class GameManager : MonoBehaviour
         //recetas = int.Parse(data[3]);
         //change weapon level
 
-
         SceneManager.sceneLoaded -= LoadState;
         Debug.Log("LoadState");
 
@@ -112,3 +109,4 @@ public class GameManager : MonoBehaviour
     }
 
 }
+
