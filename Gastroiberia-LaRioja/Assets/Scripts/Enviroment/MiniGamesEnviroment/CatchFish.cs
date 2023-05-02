@@ -30,8 +30,10 @@ public class CatchFish : MonoBehaviour
 
 
 public void Update (){
+     startAnimation();
     //Debug.Log(dentro);
     if(dentro == true && Input.GetKeyDown(KeyCode.Space)){
+        stopAnimation();
         Debug.Log(dentro);
         truchaAparecer.SetActive(true);
         burbujasDesaparecer.SetActive(false);
@@ -41,13 +43,23 @@ public void Update (){
 
     }
     if(dentro == false && Input.GetKeyDown(KeyCode.Space)){
-        
+        stopAnimation();
         SpawnRandom();
-
+        startAnimation();
 
     }
 
     
+}
+public void startAnimation(){
+    GameObject otherObject = GameObject.Find("Bubbles1");
+        Animator otherAnimator = otherObject.GetComponent<Animator>();
+        otherAnimator.enabled = true;
+}
+public void stopAnimation(){
+    GameObject otherObject = GameObject.Find("Bubbles1");
+        Animator otherAnimator = otherObject.GetComponent<Animator>();
+        otherAnimator.enabled = false;
 }
 
 public void SpawnRandom(){
