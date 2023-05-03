@@ -63,8 +63,8 @@ public void stopAnimation(){
 }
 
 public void SpawnRandom(){
-        float randomX = Random.Range(-0.5f, 0.5f);
-        float randomY = Random.Range(-0.5f, 0.5f);
+        float randomX = Random.Range(-0.6f, 8f);
+        float randomY = Random.Range(-9.1f, -10.5f);
         Vector3 newPosition = new Vector3(randomX, randomY, 0f);
 
         objectTransform.position = newPosition;
