@@ -18,6 +18,7 @@ public class GameHandler : MonoBehaviour
     public GameObject gridCollision6;
     public GameObject gridCollision7;
     public GameObject gridCollision8;
+    public bool partidaGuardada;
 
      public GameObject caparrones;
 
@@ -26,6 +27,7 @@ public class GameHandler : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        partidaGuardada = false;
         SaveObject saveObject = new SaveObject {
             recetasAmount = 5,
         };
@@ -94,8 +96,17 @@ public class GameHandler : MonoBehaviour
         }
        
     }
-    public void grantReceta(){
-        recetasAmounta++;
+    public void grantRecetaAnguiano(){
+        if(recetasAmounta == 0){
+            recetasAmounta++;
+        }
+        
+    }
+    public void grantRecetaRasillo(){
+        if(recetasAmounta == 1){
+            recetasAmounta++;
+        }
+        
     }
     public void Save(){
         int recetasAmount = recetasAmounta;
@@ -108,6 +119,7 @@ public class GameHandler : MonoBehaviour
 
         File.WriteAllText(Application.dataPath + "/save.txt", json);
         Debug.Log("SAVED");
+        partidaGuardada = true;
 
         //CMDebug.TextPopupMouse("Saved");
 
