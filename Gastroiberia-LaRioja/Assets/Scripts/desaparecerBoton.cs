@@ -16,11 +16,11 @@ public class desaparecerBoton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameHandler.partidaGuardada == false){
+        if(gameHandler.recetasAmounta == 0){
             botonApagado.SetActive(true);
             botonContinuar.SetActive(false);
         }
-        if(gameHandler.partidaGuardada == true){
+        if(gameHandler.recetasAmounta >= 1){
             botonApagado.SetActive(false);
             botonContinuar.SetActive(true);
 
