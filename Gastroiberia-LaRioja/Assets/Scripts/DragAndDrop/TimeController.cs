@@ -8,6 +8,7 @@ public class TimeController : MonoBehaviour
     [SerializeField] int min, seg;
     [SerializeField] Text tiempo;
     [SerializeField] GameObject menuPerder;
+    public PuzzleManager puzsleManager;
 
     private float restante;
     public bool enMarcha;
@@ -29,6 +30,7 @@ public class TimeController : MonoBehaviour
             {
                 enMarcha = false;
                 menuPerder.SetActive(true);
+                puzsleManager._source.Pause();
 
             }
         }

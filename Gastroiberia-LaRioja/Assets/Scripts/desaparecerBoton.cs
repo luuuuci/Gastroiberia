@@ -5,7 +5,7 @@ using UnityEngine;
 public class desaparecerBoton : MonoBehaviour
 {
     public GameHandler gameHandler;
-    public GameObject botonNuevo;
+    public GameObject botonApagado;
     public GameObject botonContinuar;
     // Start is called before the first frame update
     void Start()
@@ -17,11 +17,11 @@ public class desaparecerBoton : MonoBehaviour
     void Update()
     {
         if(gameHandler.partidaGuardada == false){
-            botonNuevo.SetActive(true);
+            botonApagado.SetActive(true);
             botonContinuar.SetActive(false);
         }
         if(gameHandler.partidaGuardada == true){
-            botonNuevo.SetActive(false);
+            botonApagado.SetActive(false);
             botonContinuar.SetActive(true);
 
         }

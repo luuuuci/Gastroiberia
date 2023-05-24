@@ -44,7 +44,7 @@ public class bajarBarra : MonoBehaviour
             Destroy(objectToDestroy);
             
 
-
         }
     }
+   
 }

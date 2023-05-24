@@ -42,6 +42,7 @@ public class GameHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Load();
         text.text = recetasAmounta.ToString();
         
 

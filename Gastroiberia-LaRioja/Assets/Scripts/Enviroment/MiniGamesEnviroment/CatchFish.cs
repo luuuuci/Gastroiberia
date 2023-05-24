@@ -7,8 +7,10 @@ public class CatchFish : MonoBehaviour
     public GameObject truchaAparecer;
     public GameObject burbujasDesaparecer;
     public GameObject objectToDestroy;
+    
     public bool dentro;
      public Transform objectTransform;
+     public ShowBocadillo showbocadillo;
    private void OnCollisionEnter2D(Collision2D other)
    
     {
@@ -32,8 +34,8 @@ public class CatchFish : MonoBehaviour
 public void Update (){
      startAnimation();
     //Debug.Log(dentro);
-    if(dentro == true && Input.GetKeyDown(KeyCode.Space)){
-        stopAnimation();
+    if(dentro == true && Input.GetKeyDown(KeyCode.Space) && showbocadillo.ensena == true){
+        //stopAnimation();
         Debug.Log(dentro);
         truchaAparecer.SetActive(true);
         burbujasDesaparecer.SetActive(false);
@@ -42,7 +44,7 @@ public void Update (){
 
 
     }
-    if(dentro == false && Input.GetKeyDown(KeyCode.Space)){
+    if(dentro == false && Input.GetKeyDown(KeyCode.Space) && showbocadillo.ensena == true){
         stopAnimation();
         SpawnRandom();
         startAnimation();
@@ -63,7 +65,7 @@ public void stopAnimation(){
 }
 
 public void SpawnRandom(){
-        float randomX = Random.Range(-0.6f, 8f);
+        float randomX = Random.Range(-0.6f, 5.5f);
         float randomY = Random.Range(-9.1f, -10.5f);
         Vector3 newPosition = new Vector3(randomX, randomY, 0f);
 

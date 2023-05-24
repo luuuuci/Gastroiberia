@@ -5,12 +5,15 @@ using UnityEngine;
 public class ShowBocadillo : MonoBehaviour
 {
     public GameObject bocadillo;
+    public bool ensena;
   private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") == true)
         {
            // Debug.Log("Enter");
             bocadillo.SetActive(true);
+            ensena = true;
+
         }
     }
     private void OnCollisionExit2D(Collision2D other)
@@ -19,6 +22,7 @@ public class ShowBocadillo : MonoBehaviour
         {
            // Debug.Log("Exit");
             bocadillo.SetActive(false);
+            ensena = false;
         }
     }
 }
