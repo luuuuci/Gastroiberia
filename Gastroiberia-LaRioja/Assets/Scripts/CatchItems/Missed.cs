@@ -9,7 +9,8 @@ public class Missed : MonoBehaviour
     public GameObject x1;
     public GameObject x2;
     public GameObject x3;
-
+public AudioSource soundClip;
+public AudioSource pararMusica;
 
 
     private void Update()
@@ -26,13 +27,14 @@ public class Missed : MonoBehaviour
             x3.SetActive(true);
             menuPerder.SetActive(true);
             Debug.Log("LOSE");
+            pararMusica.Pause();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Coins"))
         {
-            
+            soundClip.Play();
             fallos++;
             Debug.Log(fallos);
         }

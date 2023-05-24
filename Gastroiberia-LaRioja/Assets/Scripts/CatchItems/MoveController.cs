@@ -11,6 +11,7 @@ public class MoveController : MonoBehaviour
     private bool moveLeft, moveRight;
     public int CoinValue;
     public TextMeshProUGUI text;
+    public AudioSource soundClip;
     [SerializeField] GameObject menuPausa;
     [SerializeField] GameObject fruta;
 
@@ -72,6 +73,7 @@ public class MoveController : MonoBehaviour
         {
             Destroy(other.gameObject);
             CoinValue++;
+            soundClip.Play();
             
             text.text = "X" + CoinValue.ToString();
         }

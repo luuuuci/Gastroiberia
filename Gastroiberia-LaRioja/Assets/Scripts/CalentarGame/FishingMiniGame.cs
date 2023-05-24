@@ -36,6 +36,8 @@ public class FishingMiniGame : MonoBehaviour
 
     [SerializeField] GameObject menuPausa;
     [SerializeField] private AudioSource _source;
+    public AudioSource aceite;
+    public AudioSource subirBarra;
 
     private void Start()
     {
@@ -63,6 +65,11 @@ public class FishingMiniGame : MonoBehaviour
         if (min < fishPosition && fishPosition < max)
         {
             catchProgress += hookPower * Time.deltaTime;
+            Debug.Log("TOUCH");
+            if(!subirBarra.isPlaying){
+                subirBarra.Play();
+            }
+            
             if(catchProgress >= 1)
             {
                 
@@ -71,11 +78,15 @@ public class FishingMiniGame : MonoBehaviour
                 fishPosition = 0;
                 Debug.Log("You WIN");
                 menuPausa.SetActive(true);
+                _source.Pause();
+                aceite.Pause();
+                subirBarra.Pause();
                
             }
         }
         else
         {
+            subirBarra.Pause();
             catchProgress -= progressBarDecay * Time.deltaTime;
             if(catchProgress <= 0)
             {
