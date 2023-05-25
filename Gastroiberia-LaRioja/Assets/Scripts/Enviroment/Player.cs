@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     public float moveSpeed = 2f;
     public Animator animator;
     public bool isMoving;
+    public AudioSource footstepAudio;
+    public AudioSource footWaterAudio;
+    public bool isWater;
     
 
     [SerializeField] GameObject dialogueBox;
@@ -22,6 +25,7 @@ public class Player : MonoBehaviour
     {
         boxCollider = GetComponent<BoxCollider2D>();
         isMoving = true;
+        isWater = false;
 
         
 
@@ -55,6 +59,8 @@ public class Player : MonoBehaviour
         {
             //Move
             transform.Translate(0, moveDelta.y * (Time.deltaTime* moveSpeed), 0);
+            
+
         }
 
         hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
@@ -62,6 +68,28 @@ public class Player : MonoBehaviour
         {
             //Move
             transform.Translate(moveDelta.x * (Time.deltaTime * moveSpeed), 0, 0);
+        }
+        if (moveDelta.magnitude > 0 && isWater == false)
+        {
+            if (!footstepAudio.isPlaying)
+            {
+                footstepAudio.Play();
+            }
+        }
+        else
+        {
+            footstepAudio.Stop();
+        }
+        if (moveDelta.magnitude > 0 && isWater == true)
+        {
+            if (!footWaterAudio.isPlaying)
+            {
+                footWaterAudio.Play();
+            }
+        }
+        else
+        {
+            footWaterAudio.Stop();
         }
 
 

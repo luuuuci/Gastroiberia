@@ -6,6 +6,7 @@ public class Teleport : MonoBehaviour
 {
     public Transform destination;
     GameObject player;
+    public AudioSource entrar;
 
     // Start is called before the first frame update
     private void Awake()
@@ -19,6 +20,10 @@ public class Teleport : MonoBehaviour
         {
             if(Vector2.Distance(player.transform.position, transform.position) > 0.1f )
             {
+                if(!entrar.isPlaying){
+                    entrar.Play();
+                }
+
                 player.transform.position = destination.transform.position;
             }
             Debug.Log("Enetr");

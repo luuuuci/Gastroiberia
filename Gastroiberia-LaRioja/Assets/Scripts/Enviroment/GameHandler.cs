@@ -109,6 +109,10 @@ public class GameHandler : MonoBehaviour
         }
         
     }
+    public void borrarRecetas(){
+        recetasAmounta = 0;
+        Save();
+    }
     public void Save(){
         int recetasAmount = recetasAmounta;
 

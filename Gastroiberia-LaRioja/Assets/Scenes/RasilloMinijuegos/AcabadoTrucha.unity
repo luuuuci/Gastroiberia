@@ -487,7 +487,6 @@ MonoBehaviour:
   gridCollision6: {fileID: 0}
   gridCollision7: {fileID: 0}
   gridCollision8: {fileID: 0}
-  partidaGuardada: 0
   caparrones: {fileID: 0}
 --- !u!4 &536273884
 Transform:
@@ -1084,7 +1083,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 536273883}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: grantRecetaAnguiano
+        m_MethodName: grantRecetaRasillo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

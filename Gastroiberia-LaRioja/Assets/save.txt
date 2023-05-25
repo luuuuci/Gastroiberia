@@ -1,1 +1,1 @@
-{"recetasAmount":1}
+{"recetasAmount":2}

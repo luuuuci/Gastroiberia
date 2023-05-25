@@ -5,6 +5,8 @@ using UnityEngine;
 public class AparecerAgua : MonoBehaviour
 {
     public GameObject aguaPlayer;
+    public AudioSource agua;
+    public Player player;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,13 @@ public class AparecerAgua : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") == true)
         {
+            player.isWater = true;
             Debug.Log("Enter");
             aguaPlayer.SetActive(true);
+            if(!agua.isPlaying){
+                agua.Play();
+            }
+
             
         }
     }
@@ -29,8 +36,12 @@ public class AparecerAgua : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") == true)
         {
+            player.isWater = false;
             Debug.Log("Exit");
             aguaPlayer.SetActive(false);
+            if(!agua.isPlaying){
+                agua.Play();
+            }
             
         }
     }

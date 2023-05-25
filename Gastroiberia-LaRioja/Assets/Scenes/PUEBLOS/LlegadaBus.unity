@@ -28554,6 +28554,7 @@ MonoBehaviour:
   moveSpeed: 1
   animator: {fileID: 1539952621}
   isMoving: 0
+  footstepAudio: {fileID: 0}
   dialogueBox: {fileID: 0}
 --- !u!212 &1539952619
 SpriteRenderer:
