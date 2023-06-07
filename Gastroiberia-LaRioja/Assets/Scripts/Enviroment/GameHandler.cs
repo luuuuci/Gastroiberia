@@ -20,7 +20,7 @@ public class GameHandler : MonoBehaviour
     public GameObject gridCollision8;
     
 
-     public GameObject caparrones;
+     //public GameObject caparrones;
 
 
     
@@ -48,16 +48,17 @@ public class GameHandler : MonoBehaviour
 
         if(recetasAmounta == 0){
             gridCollision0.SetActive(true);
-            caparrones.SetActive(false);
+           // caparrones.SetActive(false);
             
         }
         if(recetasAmounta ==1){
             gridCollision0.SetActive(false);
             gridCollision1.SetActive(true);
-            caparrones.SetActive(true);
+           // caparrones.SetActive(true);
             
         }
         if(recetasAmounta ==2){
+            gridCollision0.SetActive(false);
             gridCollision1.SetActive(false);
             gridCollision2.SetActive(true);
             
@@ -133,7 +134,7 @@ public class GameHandler : MonoBehaviour
         if (File.Exists(Application.dataPath + "/save.txt")){
             string saveString = File.ReadAllText(Application.dataPath + "/save.txt");
             //CMDebug.TextPopupMouse("Loaded: " + saveString);
-            Debug.Log("LOADED");
+            //Debug.Log("LOADED");
 
             SaveObject saveObject = JsonUtility.FromJson<SaveObject>(saveString);
             recetasAmounta = saveObject.recetasAmount;

@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/MenuPrincipal.unity
     guid: 6a878a4a9427e2c4897007322afd716f
   - enabled: 1
-    path: Assets/Scenes/Menus/Opciones.unity
+    path: Assets/Scenes/Menus/Creditos.unity
     guid: a0074c1f66a46fb4d8376336d398c3c1
   - enabled: 1
     path: Assets/Scenes/VideoIntro.unity
@@ -68,4 +68,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RasilloMinijuegos/AcabadoTrucha.unity
     guid: 24a6d586d773e414ca95fd3eea7f00f3
+  - enabled: 1
+    path: Assets/Scenes/DemoFin.unity
+    guid: 10ba77eb653326c4a92b71ee736bf78b
+  - enabled: 1
+    path: Assets/Scenes/Menus/Opciones.unity
+    guid: 430008a62c8278845a9053415d75f5ac
+  - enabled: 1
+    path: Assets/Scenes/PUEBLOS/Viguera.unity
+    guid: e3c256a003baf6c4487b8da2eb93c93c
   m_configObjects: {}

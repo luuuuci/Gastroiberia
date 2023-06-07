@@ -487,7 +487,6 @@ MonoBehaviour:
   gridCollision6: {fileID: 0}
   gridCollision7: {fileID: 0}
   gridCollision8: {fileID: 0}
-  caparrones: {fileID: 0}
 --- !u!4 &536273884
 Transform:
   m_ObjectHideFlags: 0
@@ -1069,18 +1068,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1973805793}
-        m_TargetAssemblyTypeName: ChangeSceneWithButton, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Rasillo 2
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 536273883}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
         m_MethodName: grantRecetaRasillo
@@ -1103,6 +1090,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1973805793}
+        m_TargetAssemblyTypeName: ChangeSceneWithButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DemoFin
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1133178904

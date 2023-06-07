@@ -4109,7 +4109,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hola muchachita \xBFque haces por aqui tu sola?"
+        value: "Hola muchachita \xBFqu\xE9 haces por aqu\xED tu sola?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4677,7 +4677,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Es que he llevao vida mu mala y se lo que es estar sola...
+        value: "Es que he llevao vida mu mala y s\xE9 lo que es estar sola..."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4860,8 +4860,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 529.57666
-        y: 210.54799
+        x: 526.12836
+        y: 213.99623
         width: 160
         height: 30
     - id: 13
@@ -5003,7 +5003,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 520.36615
+        x: 522.0903
         y: 293.44272
         width: 160
         height: 30
@@ -5170,9 +5170,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sisi, hija, y encima he escuhado que el otro d\xF1ia el hijo de Aurelio
+        value: "Sisi, hija, y encima he escuchado que el otro d\xEDa el hijo de Aurelio
           vino a las tantas a casa, a saber que estaba haciendo por all\xED, que
-          \xFAltimamente los j\xF3venes hacen cosas peores."
+          \xFAltimamente los j\xF3venes hacen cosas malas."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5289,8 +5289,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 299.31354
-        y: 523.7059
+        x: 297.58942
+        y: 521.98175
         width: 160
         height: 30
     - id: 19
@@ -5385,8 +5385,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Bueno no lo digo por ti tranquila, me parece muy bie que ayudes a
-          Aurelio con el hijo que tiene. Ojala hubiera m\xE1s gente como tu."
+        value: "Bueno no lo digo por ti tranquila, me parece muy bien que ayudes
+          a Aurelio con el hijo que tiene. Ojal\xE1 hubiera m\xE1s gente como t\xFA."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5427,13 +5427,13 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 247.99777
-        y: 601.33746
+        y: 603.0616
         width: 160
         height: 30
     - id: 21
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5457,7 +5457,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Muchas gracias. Ahora, tengo que ir a buscar el laurel.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5484,7 +5484,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: Muchas gracias. Ahora, tengo que ir a buscar el laurel.
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -5495,7 +5495,7 @@ MonoBehaviour:
         y: 685.4551
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 120.689575, y: 136.20679}
     canvasZoom: 0.58000046
   - id: 5
     fields:
@@ -5643,7 +5643,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Holaa, \xBFQuieres hechar un partido?, me he cansado de mi hermana"
+        value: "Holaa, \xBFQuieres echar un partido?, me he cansado de mi hermana."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5791,7 +5791,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Si anda, casi, si no se quien eres.
+        value: "Si anda, casi, si no s\xE9 qui\xE9n eres."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5826,7 +5826,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1
-        y: 316.42853
+        y: 317.8571
         width: 160
         height: 30
     - id: 8
@@ -5896,7 +5896,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 212.57147
+        x: 215.42862
         y: 222.14279
         width: 160
         height: 30
@@ -5992,7 +5992,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFQue si he visto laurel por ahi?. No se que es eso."
+        value: "\xBFQue si he visto laurel por ah\xED? No s\xE9 qu\xE9 es eso."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6326,7 +6326,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "...........futbol..........yo soy del bar\xE7a......"
+        value: "...........f\xFAtbol..........yo soy del bar\xE7a......"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6437,8 +6437,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 321.91132
-        y: 205.10123
+        x: 317.96393
+        y: 206.41702
         width: 160
         height: 30
     - id: 5
@@ -6468,7 +6468,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: A que bien yo tambien!
+        value: "\xA1A qu\xE9 bien yo tambi\xE9n!"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6610,7 +6610,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Es que es el mejor!
+        value: "\xA1Es que es el mejor!"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6817,7 +6817,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sii, ha pasado antes por aqu\xED, iba ahcia arriba."
+        value: "Sii, ha pasado antes por aqu\xED, iba pa arriba."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6920,8 +6920,8 @@ MonoBehaviour:
         y: 196.55693
         width: 160
         height: 30
-    canvasScrollPosition: {x: 111.392395, y: 25.316437}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 100.85271, y: 0}
+    canvasZoom: 0.5800004
   - id: 7
     fields:
     - title: Title
@@ -7145,7 +7145,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFEstas bien?"
+        value: "\xBFEst\xE1s bien?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7430,7 +7430,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFEn serio nos  ayudar\xEDas?. Esta dentro de casa."
+        value: "\xBFEn serio nos ayudar\xEDas? Esta dentro de casa."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7495,7 +7495,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFHas hablado con mi padre?"
+        value: "\xBFHas hablao con mi padre?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7573,7 +7573,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Si, \xBFque has hecho antes de llegar a casa?"
+        value: "Si, \xBFqu\xE9 has hecho antes de llegar a casa?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7955,8 +7955,8 @@ MonoBehaviour:
         y: 370.61038
         width: 160
         height: 30
-    canvasScrollPosition: {x: 19.476795, y: 0}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 139.52515, y: 0}
+    canvasZoom: 0.52000046
   - id: 8
     fields:
     - title: Title
@@ -8174,7 +8174,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFPorque vais asi vestidos?"
+        value: "\xBFPorque vais as\xED vestidos?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8322,7 +8322,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Me encanta, \xBFy que haceis exactamente?"
+        value: "\xBFY qu\xE9 hac\xE9is exactamente?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8570,7 +8570,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 126.31575
+        x: 121.0526
         y: 540.6842
         width: 160
         height: 30
@@ -8847,8 +8847,8 @@ MonoBehaviour:
         y: 517.6843
         width: 160
         height: 30
-    canvasScrollPosition: {x: 26.315735, y: 0}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 56.164352, y: 42.566757}
+    canvasZoom: 0.73000026
   - id: 9
     fields:
     - title: Title
@@ -9066,7 +9066,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFQue es lo mas divertido para ti de lo que hac\xE9is?"
+        value: "\xBFQu\xE9 es lo m\xE1s divertido para ti de lo que hac\xE9is?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9138,7 +9138,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Pues me encanta ver las caras de gente nueva que viene a vernos y
-          sobretodo tir\xE1rnos por la cuesta. Aunque no se si estoy preparado todav\xEDa."
+          sobre todo bajar por la cuesta. Aunque no se si estoy preparado todav\xEDa."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9455,7 +9455,7 @@ MonoBehaviour:
         y: 380.3846
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 99.99997}
     canvasZoom: 0.9100001
   - id: 10
     fields:
@@ -9921,7 +9921,7 @@ MonoBehaviour:
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.7900002
   - id: 11
     fields:
     - title: Title
@@ -10068,7 +10068,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFQue haces aqui?"
+        value: "\xBFQu\xE9 haces aqu\xED?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10281,7 +10281,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: No, he venido desde muy lejos, para descubir nuevas recetas.
+        value: No, he venido desde muy lejos, para descubrir nuevas recetas.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10398,8 +10398,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 521.86365
-        y: 115.272736
+        x: 523.29224
+        y: 112.41559
         width: 160
         height: 30
     - id: 9
@@ -10500,7 +10500,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Creo que s\xED, estaba con Rodri hechandonos unos pit... digo charlando,
+        value: "Creo que s\xED, estaba con Rodri hechandonos unos pet... digo charlando,
           y ha comentao algo de cocinar con su padre o yo que se."
         type: 0
         typeString: 
@@ -10814,7 +10814,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 410.09894
+        x: 407.24176
         y: 189.97858
         width: 160
         height: 30
@@ -10954,8 +10954,8 @@ MonoBehaviour:
         y: 322.91974
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 37.142853}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 35.01793, y: 0}
+    canvasZoom: 0.64000034
   - id: 12
     fields:
     - title: Title
@@ -11102,7 +11102,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hola, \xBFque te cuentas?"
+        value: "Hola, \xBFqu\xE9 te cuentas?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11180,7 +11180,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Estoy de viaje por La Rioja, me gustar\xEDa conocer platos t\xEDpicos
-          de la zona"
+          de la zona."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11440,8 +11440,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 80
+        x: 741.7241
+        y: 78.27585
         width: 160
         height: 30
     - id: 6
@@ -11642,7 +11642,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 560
+        x: 556.5517
         y: 42.5
         width: 160
         height: 30
@@ -11745,8 +11745,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ay ojala mi hijo me escuhara como tu a tu abuela. Que tengas mucha
-          suerte.
+        value: "Ay ojal\xE1 mi hijo me escuchara como t\xFA a tu abuela. Que tengas
+          mucha suerte."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11882,7 +11882,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFQue te trae por aqu\xED?"
+        value: "\xBFQu\xE9 te trae por aqu\xED?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12348,8 +12348,8 @@ MonoBehaviour:
         y: 264.88028
         width: 160
         height: 30
-    canvasScrollPosition: {x: 24.79477, y: 7.462677}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 16.093872, y: 0}
+    canvasZoom: 0.5800004
   - id: 13
     fields:
     - title: Title
@@ -12709,7 +12709,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Aqu\xED esta todo el mundo bienvnido, \xFAltimamente no recibimos
+        value: "Aqu\xED est\xE1 todo el mundo bienvenido, \xFAltimamente no recibimos
           mucha visita. Mi marido esta siempre en el campo y mis nietos ya no vienen
           a visitarme..."
         type: 0
@@ -12997,7 +12997,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Pues porque se han mudado a Madrid y estando tan lejos es m\xE1s
-          d\xEDficl que nos veamos. Los echo mucho de menos."
+          dif\xEDcil que nos veamos. Los echo mucho de menos."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13470,8 +13470,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 539.4245
-        y: 177.24655
+        x: 554.9417
+        y: 172.07413
         width: 160
         height: 30
     - id: 15
@@ -13959,8 +13959,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 9.625885
-        y: 639.7933
+        x: 11.265228
+        y: 641.4326
         width: 160
         height: 30
     - id: 22
@@ -14061,9 +14061,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Toma un poco, y tamb\xEDen llevate estos caramelos, que como ya sabes
-          mis nietos no estan y tengo demasiados. Y tanbien un poco de chocolate.
-          Ay y tambien tengo unos zumos buenisimos...."
+        value: "Toma un poco, y tambi\xE9n ll\xE9vate estos caramelos, que como ya
+          sabes mis nietos no est\xE1n y tengo demasiados. Y tambi\xE9n un poco de
+          chocolate. Ay y tambi\xE9n tengo unos zumos buen\xEDsimos...."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -14172,8 +14172,8 @@ MonoBehaviour:
         y: 820.1211
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 27.525665}
-    canvasZoom: 0.6100004
+    canvasScrollPosition: {x: 27.586212, y: 3.4482727}
+    canvasZoom: 0.5800004
   - id: 14
     fields:
     - title: Title
@@ -14540,7 +14540,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Vengo de muy lejos, he venido para conocer la gasttronom\xEDa t\xEDpica
+        value: "Vengo de muy lejos, he venido para conocer la gastronom\xEDa t\xEDpica
           de La Rioja."
         type: 0
         typeString: 
@@ -14724,8 +14724,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 87.73198
-        y: 398.3629
+        x: 80.58913
+        y: 395.5058
         width: 160
         height: 30
     - id: 7
@@ -14796,7 +14796,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1
-        y: 462.99704
+        y: 461.56845
         width: 160
         height: 30
     - id: 8
@@ -14897,7 +14897,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "La mejor bebida de tu vida, estoy segura que si sigues visitando
+        value: "La mejor bebida de tu vida, estoy segura de que si sigues visitando
           otros pueblos conseguir\xE1s probarlo. Pero ten cuidao e, que eso pega
           duro a la cabeza"
         type: 0
@@ -15035,7 +15035,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Noo hombre, pero eso es lo que me manejo yo jeje, si hablas con mas
+        value: "Noo hombre, pero eso es lo que me manejo yo jeje, si hablas con m\xE1s
           gente podr\xE1s aprender cosas m\xE1s interesantes."
         type: 0
         typeString: 
@@ -15172,7 +15172,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Si, \xBFsi que pasa con esa?... Hola, \xBFpasa algo?"
+        value: "Si, \xBFsi qu\xE9 pasa con esa?... Hola, \xBFpasa algo?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -15249,7 +15249,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hola, necesito saber si has vito pasar a Rodri por aqu\xED?"
+        value: "Hola, necesito saber si has visto pasar a Rodri por aqu\xED?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -15386,7 +15386,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Que ha hecho este hombre ahora, pues est\xE1n donde siempre haciendo
-          lo de siempre"
+          lo de siempre."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -15709,8 +15709,8 @@ MonoBehaviour:
         y: 481.83762
         width: 160
         height: 30
-    canvasScrollPosition: {x: 93.370125, y: 54.465492}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 135.82086, y: 24.70369}
+    canvasZoom: 0.6700003
   - id: 15
     fields:
     - title: Title
@@ -16220,9 +16220,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Te voy a contar una cosa que no tiene que ver con la gastronom\xEDa
-          pero es muy interesante. Si vas m\xE1s alla del pueblo, hay un tejo milenario
-          que mucha gente dice tener poderes misteriosos."
+        value: "Te voy a contar una cosa que no tiene que ver con la gastronom\xEDa,
+          pero es muy interesante. Si vas m\xE1s all\xE1 del pueblo, hay un tejo
+          milenario que mucha gente dice tener poderes misteriosos."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -16431,7 +16431,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Yo no me olvidar\xE9 de vosotros"
+        value: "Yo no me olvidar\xE9 de vosotros."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -17034,7 +17034,7 @@ MonoBehaviour:
         y: 394.2927
         width: 160
         height: 30
-    canvasScrollPosition: {x: 23.659653, y: 0}
+    canvasScrollPosition: {x: 212.23102, y: 0}
     canvasZoom: 0.7000003
   - id: 16
     fields:
@@ -17522,7 +17522,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 420.76434
-        y: 308.57455
+        y: 311.31427
         width: 160
         height: 30
     - id: 6
@@ -17623,7 +17623,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFY por que me hablas?"
+        value: "\xBFY por qu\xE9 me hablas?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -18733,7 +18733,7 @@ MonoBehaviour:
         y: 1085.125
         width: 160
         height: 30
-    canvasScrollPosition: {x: 70.543564, y: 640.70593}
+    canvasScrollPosition: {x: 0, y: 552.0547}
     canvasZoom: 0.73000026
   - id: 17
     fields:
@@ -21634,13 +21634,13 @@ MonoBehaviour:
       - originConversationID: 19
         originDialogueID: 0
         destinationConversationID: 19
-        destinationDialogueID: 9
+        destinationDialogueID: 18
         isConnector: 0
         priority: 2
       - originConversationID: 19
         originDialogueID: 0
         destinationConversationID: 19
-        destinationDialogueID: 18
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -21650,7 +21650,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
+        x: 297.26025
         y: 33.90722
         width: 160
         height: 30
@@ -21697,7 +21697,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(teclado1)
         type: 0
         typeString: 
       conversationID: 19
@@ -21911,7 +21911,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(teclado1)
         type: 0
         typeString: 
       conversationID: 19
@@ -22077,7 +22077,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 440.62888
+        x: 441.99875
         y: 367.05154
         width: 160
         height: 30
@@ -22124,7 +22124,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(teclado1)
         type: 0
         typeString: 
       conversationID: 19
@@ -22217,77 +22217,6 @@ MonoBehaviour:
         y: 497.97946
         width: 160
         height: 30
-    - id: 9
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 19
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 19
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 19
-        originDialogueID: 9
-        destinationConversationID: 19
-        destinationDialogueID: 10
-        isConnector: 0
-        priority: 2
-      conditionsString: CurrentQuestState("Trucha") == "active"
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 499.99994
-        y: 105.556694
-        width: 160
-        height: 30
     - id: 10
       fields:
       - title: Title
@@ -22348,7 +22277,7 @@ MonoBehaviour:
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Trucha") == "active"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -22848,7 +22777,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 620.61847
+        x: 619.2486
         y: 610.7114
         width: 160
         height: 30
@@ -22918,7 +22847,7 @@ MonoBehaviour:
         destinationDialogueID: 20
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Trucha") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -23272,7 +23201,7 @@ MonoBehaviour:
         y: 312.31622
         width: 160
         height: 30
-    canvasScrollPosition: {x: 41.88997, y: 0}
+    canvasScrollPosition: {x: 21.341995, y: 0}
     canvasZoom: 0.73000026
   - id: 20
     fields:
@@ -23753,8 +23682,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 88.14433
-        y: 406.39175
+        x: 57.764587
+        y: 400.06262
         width: 160
         height: 30
     - id: 6
@@ -23857,7 +23786,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "Y ya si quieres cargarlo m\xE1s o menos es tu decisi\xF3n. A mi me
           gusta que sepa mucho a vino, pero mi novia aguanta menos el alcohol, as\xED
-          que se hecha menos. Creo que ya esta dormida y todo jaajaja."
+          que se echa menos. Creo que ya esta dormida y todo jaajaja."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -23960,8 +23889,8 @@ MonoBehaviour:
         y: 467.732
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 85.995895}
-    canvasZoom: 0.97
+    canvasScrollPosition: {x: 0, y: 54.864304}
+    canvasZoom: 0.7600002
   - id: 21
     fields:
     - title: Title
@@ -24637,8 +24566,8 @@ MonoBehaviour:
         y: 450
         width: 160
         height: 30
-    canvasScrollPosition: {x: 8, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 49.99997}
+    canvasZoom: 0.8200002
   - id: 22
     fields:
     - title: Title
@@ -25959,7 +25888,451 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 0
+        destinationConversationID: 24
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 303
+        y: 45
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\xBFCu\xE1l es tu comida favorita?"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 1
+        destinationConversationID: 24
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      - originConversationID: 24
+        originDialogueID: 1
+        destinationConversationID: 24
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 24
+        originDialogueID: 1
+        destinationConversationID: 24
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 24
+        originDialogueID: 1
+        destinationConversationID: 24
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 327
+        y: 129
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Alguna fruta.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 2
+        destinationConversationID: 24
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 174
+        y: 207
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Cualquier plato que lleve verdura.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 3
+        destinationConversationID: 24
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 387
+        y: 212
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Pizza.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 4
+        destinationConversationID: 24
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 602
+        y: 197
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Una buena tortilla de patatas.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 5
+        destinationConversationID: 24
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 743
+        y: 135
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Oleeee.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
@@ -25969,8 +26342,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 30
+        x: 471
+        y: 347
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -26068,7 +26441,298 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 0
+        destinationConversationID: 25
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 254
+        y: 35
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 25
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hace dos semanas que no llueve, esto no es normal.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 1
+        destinationConversationID: 25
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 261
+        y: 105
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 25
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Estamos en a\xF1os de cambios constantes, tenemos que tener cuidado."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 2
+        destinationConversationID: 25
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 233
+        y: 169
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 25
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "No se que va a ser de nosotros. Esto hace much\xEDsimo da\xF1o al
+          campo, encima esta subiendo todo de precio."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 3
+        destinationConversationID: 25
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 25
+        originDialogueID: 3
+        destinationConversationID: 25
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240
+        y: 234
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 25
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Seguro que encontramos una soluci\xF3n al respecto."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
@@ -26078,8 +26742,73 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 30
+        x: 92
+        y: 295
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 25
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No veo un futuro claro...
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 393
+        y: 300
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -26758,6 +27487,12 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
+      - originConversationID: 26
+        originDialogueID: 8
+        destinationConversationID: 26
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -26832,6 +27567,71 @@ MonoBehaviour:
         serializedVersion: 2
         x: 288
         y: 487
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 23
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No estoy tan segura.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 26
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 488
+        y: 477
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 242}
