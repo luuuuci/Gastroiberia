@@ -497,7 +497,7 @@ MonoBehaviour:
   - id: 24
     fields:
     - title: Name
-      value: Carla
+      value: Sara
       type: 0
       typeString: 
     - title: Pictures
@@ -2692,7 +2692,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "\xA1Ay!, nos has salvado. Cuando quieras te acercas a la cocina de
-          aqu\xED arriba. Aupa"
+          aqu\xED arriba. Aupaaaa."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2766,7 +2766,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ahora mismo no puedo
+        value: Ahora mismo no puedo.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2831,7 +2831,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ya veo que has aprendido a hacer Caparrones
+        value: Ya veo que has aprendido a hacer Caparrones.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3513,8 +3513,8 @@ MonoBehaviour:
         y: 483.85886
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 0, y: 94.029785}
+    canvasZoom: 0.6700003
   - id: 3
     fields:
     - title: Title
@@ -4176,7 +4176,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 197.14328
-        y: 129.19969
+        y: 132.64796
         width: 160
         height: 30
     - id: 3
@@ -4840,7 +4840,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: Rodri ha perdido el laurel por el pueblo. Lo necesita su padre para
-          hacer unos Caparrones
+          hacer unos Caparrones.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5515,7 +5515,7 @@ MonoBehaviour:
         y: 685.4551
         width: 160
         height: 30
-    canvasScrollPosition: {x: 120.689575, y: 136.20679}
+    canvasScrollPosition: {x: 0, y: 163.79297}
     canvasZoom: 0.58000046
   - id: 5
     fields:
@@ -6871,7 +6871,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 571.13904
+        x: 574.58734
         y: 211.7468
         width: 160
         height: 30
@@ -6940,7 +6940,7 @@ MonoBehaviour:
         y: 196.55693
         width: 160
         height: 30
-    canvasScrollPosition: {x: 100.85271, y: 0}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.5800004
   - id: 7
     fields:
@@ -7354,8 +7354,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 42.090927
-        y: 412.77264
+        x: 40.167847
+        y: 410.84955
         width: 160
         height: 30
     - id: 5
@@ -7975,7 +7975,7 @@ MonoBehaviour:
         y: 370.61038
         width: 160
         height: 30
-    canvasScrollPosition: {x: 139.52515, y: 0}
+    canvasScrollPosition: {x: 24.14064, y: 19.230743}
     canvasZoom: 0.52000046
   - id: 8
     fields:
@@ -10905,8 +10905,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 358.33426
-        y: 259.97858
+        x: 359.89676
+        y: 256.85358
         width: 160
         height: 30
     - id: 16
@@ -11240,8 +11240,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 42.5
+        x: 386.89655
+        y: 40.775864
         width: 160
         height: 30
     - id: 3
@@ -12084,8 +12084,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 329.1038
-        y: 293.2077
+        x: 327.37964
+        y: 291.48355
         width: 160
         height: 30
     - id: 15
@@ -12368,7 +12368,7 @@ MonoBehaviour:
         y: 264.88028
         width: 160
         height: 30
-    canvasScrollPosition: {x: 16.093872, y: 0}
+    canvasScrollPosition: {x: 247.12817, y: 0}
     canvasZoom: 0.5800004
   - id: 13
     fields:
@@ -14192,7 +14192,7 @@ MonoBehaviour:
         y: 820.1211
         width: 160
         height: 30
-    canvasScrollPosition: {x: 27.586212, y: 3.4482727}
+    canvasScrollPosition: {x: 0, y: 296.55157}
     canvasZoom: 0.5800004
   - id: 14
     fields:
@@ -21717,7 +21717,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(teclado1)
+        value: 
         type: 0
         typeString: 
       conversationID: 19
@@ -21843,7 +21843,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Pues estoy buscando recetas tradicionales de cada pueblo
+        value: Pues estoy buscando recetas tradicionales de cada pueblo.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -25818,7 +25818,7 @@ MonoBehaviour:
   - id: 24
     fields:
     - title: Title
-      value: Carla
+      value: Sara
       type: 0
       typeString: 
     - title: Pictures
@@ -25917,6 +25917,12 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
+      - originConversationID: 24
+        originDialogueID: 0
+        destinationConversationID: 24
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -25955,7 +25961,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFCu\xE1l es tu comida favorita?"
+        value: "\xBFTienes perros?"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -25994,18 +26000,6 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      - originConversationID: 24
-        originDialogueID: 1
-        destinationConversationID: 24
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      - originConversationID: 24
-        originDialogueID: 1
-        destinationConversationID: 24
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -26013,8 +26007,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 327
-        y: 129
+        x: 353.86566
+        y: 149.89551
         width: 160
         height: 30
     - id: 2
@@ -26044,7 +26038,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Alguna fruta.
+        value: Si.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -26074,7 +26068,7 @@ MonoBehaviour:
       - originConversationID: 24
         originDialogueID: 2
         destinationConversationID: 24
-        destinationDialogueID: 7
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -26084,8 +26078,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 174
-        y: 207
+        x: 306.10446
+        y: 223.7761
         width: 160
         height: 30
     - id: 3
@@ -26115,7 +26109,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Cualquier plato que lleve verdura.
+        value: No.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -26145,7 +26139,7 @@ MonoBehaviour:
       - originConversationID: 24
         originDialogueID: 3
         destinationConversationID: 24
-        destinationDialogueID: 7
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -26155,8 +26149,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 387
-        y: 212
+        x: 565.8059
+        y: 246.16412
         width: 160
         height: 30
     - id: 4
@@ -26174,148 +26168,6 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 24
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Pizza.
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 24
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 24
-        originDialogueID: 4
-        destinationConversationID: 24
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 602
-        y: 197
-        width: 160
-        height: 30
-    - id: 5
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 24
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Una buena tortilla de patatas.
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 24
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 24
-        originDialogueID: 5
-        destinationConversationID: 24
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 743
-        y: 135
-        width: 160
-        height: 30
-    - id: 7
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
         value: 24
         type: 5
         typeString: CustomFieldType_Actor
@@ -26328,7 +26180,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Oleeee.
+        value: Entonces na.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -26362,12 +26214,427 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 471
-        y: 347
+        x: 586.7014
+        y: 342.43277
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Si tienes un cachorro tienes que vigilarlo muy bien al sacarlo a pasear.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 5
+        destinationConversationID: 24
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 244.91046
+        y: 326.0149
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\xBFPasa algo?"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 6
+        destinationConversationID: 24
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 362.82086
+        y: 386.46262
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Si dejas que tu perro huela a otros siendo muy peque\xF1o, puede
+          contagiarse del parvovirus y morir. Ten mucho cuidado porfi."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 24
+        originDialogueID: 7
+        destinationConversationID: 24
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      - originConversationID: 24
+        originDialogueID: 7
+        destinationConversationID: 24
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 358.34323
+        y: 470.79092
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 303
+        y: 95
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Gracias, lo tendr\xE9 en cuenta."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 292.67163
+        y: 534.22375
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 24
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No me importa.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 578.6556
+        y: 566.10333
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 34.375, y: 171.39343}
+    canvasZoom: 0.64000034
   - id: 25
     fields:
     - title: Title
